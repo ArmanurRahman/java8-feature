@@ -12,9 +12,15 @@ public class Honda implements Vehicle{
         System.out.println("Breaks applied");
     }
 
+    public static void sayHello() {
+        System.out.println("Say hello from main class car");
+    }
     public static void main(String[] args) {
         Honda honda = new Honda();
         honda.applyBreak();
         honda.autoPilot();
+
+        Honda.sayHello();
+        Vehicle.sayHello();
     }
 }

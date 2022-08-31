@@ -8,4 +8,8 @@ public interface Vehicle {
         System.out.println("Auto pilot activated");
     }
 
+    public static void sayHello() {
+        System.out.println("Hello from your favourite car");
+    }
+
 }
